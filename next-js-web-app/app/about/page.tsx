@@ -1,20 +1,10 @@
-import Link from "next/link";
+import HeaderMenu from "../headermenu";
 
 export default function About() {
   return (
     <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <header className="w-full max-w-3xl px-16 py-4">
-        <nav className="flex gap-6">
-          <Link href="/" className="text-black dark:text-zinc-50 hover:underline">
-            Home
-          </Link>
-          <Link href="/about" className="text-black dark:text-zinc-50 hover:underline">
-            About
-          </Link>
-             <Link href="/contact" className="text-black dark:text-zinc-50 hover:underline">
-            Contact
-          </Link>
-        </nav>
+        <HeaderMenu/>
       </header>
       <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-center py-32 px-16 bg-white dark:bg-black">
         <div className="flex flex-col items-center gap-6 text-center">

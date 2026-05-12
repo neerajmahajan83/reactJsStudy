@@ -11,6 +11,9 @@
           <Link href="/contact" className="text-black dark:text-zinc-50 hover:underline">
             Contact
           </Link>
+          <Link href="/mul-input-field" className="text-black dark:text-zinc-50 hover:underline">
+            mul input field
+          </Link>
         </nav>
         )
     }

@@ -1,5 +1,5 @@
 import HeaderMenu from "../headermenu";
-import MyForm from "../components/contact";
+import MyFormMulField from "../components/myformmulfield";
 
 export default function Contact() {
   return (
@@ -18,7 +18,7 @@ export default function Contact() {
         
         
           
-            <MyForm/>
+            <MyFormMulField/>
 
           </div>
         </div>
